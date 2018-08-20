@@ -55,19 +55,19 @@ class ViewController: UIViewController {
             
             if manSegmentedControl.selectedSegmentIndex == 0 {
                 // 男生雙子座
-                print("好")
+                //print("好")
                 heartLabel.text = "❤️"
                 let image = UIImage(named: "好")
                 matchingImage.image = image
             } else if (manSegmentedControl.selectedSegmentIndex == 1) {
                 // 男生金牛座
-                print("好")
+                //print("好")
                 heartLabel.text = "❤️"
                 let image = UIImage(named: "好")
                 matchingImage.image = image
             } else {
                 // 男生牡羊座
-                print("好好好")
+                //print("好好好")
                 heartLabel.text = "❤️❤️❤️"
                 let image = UIImage(named: "好好好")
                 matchingImage.image = image
@@ -76,19 +76,19 @@ class ViewController: UIViewController {
             // 女生獅子座
             if manSegmentedControl.selectedSegmentIndex == 0 {
                 // 男生雙子座
-                print("好好")
+                //print("好好")
                 heartLabel.text = "❤️❤️"
                 let image = UIImage(named: "好好")
                 matchingImage.image = image
             } else if (manSegmentedControl.selectedSegmentIndex == 1) {
                 // 男生金牛座
-                print("不好")
+                //print("不好")
                 heartLabel.text = "💔"
                 let image = UIImage(named: "不好")
                 matchingImage.image = image
             } else {
                 // 男生牡羊座
-                print("好")
+                //print("好")
                 heartLabel.text = "❤️"
                 let image = UIImage(named: "好")
                 matchingImage.image = image
@@ -97,19 +97,19 @@ class ViewController: UIViewController {
             // 女生巨蟹座
             if manSegmentedControl.selectedSegmentIndex == 0 {
                 // 男生雙子座
-                print("不好")
+                //print("不好")
                 heartLabel.text = "💔"
                 let image = UIImage(named: "不好")
                 matchingImage.image = image
             } else if (manSegmentedControl.selectedSegmentIndex == 1) {
                 // 男生金牛座
-                print("好好")
+                //print("好好")
                 heartLabel.text = "❤️❤️"
                 let image = UIImage(named: "好好")
                 matchingImage.image = image
             } else {
                 // 男生牡羊座
-                print("不好")
+                //print("不好")
                 heartLabel.text = "💔"
                 let image = UIImage(named: "不好")
                 matchingImage.image = image
